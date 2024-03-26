@@ -10,6 +10,7 @@ main{
     height: calc(100vh - 130px);
     background-color: black;
     overflow: auto;
+    position: relative;
 }
 
 .container{
@@ -50,13 +51,24 @@ img{
     width: 100%;
 }
 
+.speaker{
+    right: 10px;
+    top: 20px;
+    font-size: 18px;
+    background-color: rgba(133, 133, 133, 0.4);
+    border-radius: 10px;
+}
+
 .pinco{
-    position: absolute;
     left: 0;
     bottom: 0;
-    padding: 5px 10px;
-    color: white;
     background-color: rgba(0,0,0,0.4);
+}
+
+.speaker, .pinco{
+    position: absolute;
+    color: white;
+    padding: 5px 10px;
 }
 
 footer{
