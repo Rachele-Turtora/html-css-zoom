@@ -43,7 +43,7 @@ main{
 
 .content{
     height: 150px;
-    margin: 10px 5px;
+    margin: 40px 5px;
     position: relative;
 }
 
@@ -54,7 +54,7 @@ img{
 .pinco{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -50px;
     padding: 5px 10px;
     color: white;
     background-color: rgba(0,0,0,0.4);
