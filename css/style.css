@@ -31,6 +31,18 @@ main{
     display: flex;
 }
 
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
 .col-10{
     width: 10%;
 }
@@ -39,12 +51,16 @@ main{
     width: calc(100% / 7 - 10px);
 }
 
-.col-20{
-    width: 20%;
+.col-30{
+    width: 30%;
 }
 
-.col-70{
-    width: 70%;
+.col-60{
+    width: 60%;
+}
+
+.height-100{
+    height: 100%;
 }
 
 .content{
@@ -82,11 +98,10 @@ footer{
     color: white;
 }
 
-p, li{
+li{
     display: inline-block;
     font-size: 20px;
     padding: 0 30px;
-    line-height: 130px;
 }
 
 .share{
@@ -96,6 +111,22 @@ p, li{
 
 li{
     list-style-type: none;
+}
+
+.icon{
+    padding: 20px;
+    font-size: 45px;
+}
+
+.icon p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.fa-chevron-up{
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .end{
